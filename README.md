@@ -1,10 +1,8 @@
 # Advent of Code 2024
 
-I decided to do AoC this year, but with a twist:
+I decided to do AoC this year, but each day I will use a different language
 
-each day I will use a different language
-
-## Language table
+## Schedule 
 
 | day | lang       |
 |-----|------------|
@@ -16,3 +14,7 @@ each day I will use a different language
 | 6   | Matlab     |
 | 7   | Rust       |
 | 8   | x86        |
+| 9   | Go         |
+| 10  | Clojure    |
+| 11  | Prolog     |
+| 12  | Scheme     |
