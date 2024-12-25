@@ -87,13 +87,13 @@ class Printing {
 
             //System.out.println();
 
-            for(int x=0; x<pref.size(); x++) {
-              for(int y=0; y<x; y++) {
-                if (dict.get(pref.get(x)).contains(pref.get(y))) {
-                  System.out.println("test failed");
-                }
-              }
-            }
+            //for(int x=0; x<pref.size(); x++) {
+            //  for(int y=0; y<x; y++) {
+            //    if (dict.get(pref.get(x)).contains(pref.get(y))) {
+            //      System.out.println("test failed");
+            //    }
+            //  }
+            //}
             sum2 += pref.get((int)(pref.size()/2));
           }
         }
@@ -107,7 +107,8 @@ class Printing {
 
     System.out.println(sum);
     System.out.println(sum2);
-
+    
+    /*
     int siz = 0;
     for (Integer x : dict.keySet()) {
       siz += dict.get(x).size();
@@ -115,6 +116,7 @@ class Printing {
     System.out.println(siz);
 
     System.out.println(runtime);
+    */
 
   }
 }
